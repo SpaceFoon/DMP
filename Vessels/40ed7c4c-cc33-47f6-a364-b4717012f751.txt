@@ -1,0 +1,117 @@
+pid = 40ed7c4ccc3347f6a364b4717012f751
+name = Ast. FKL-242
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 14583.271494463648
+lct = 14583.271494463648
+lastUT = -1
+root = 0
+lat = 0.54134906972224195
+lon = 159.11298457021559
+alt = 16687951333.906961
+hgt = -1
+nrm = 0,1,0
+rot = -0.557744265,0.0720081553,-0.371101707,0.738931477
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 18413549568
+	ECC = 0.2991851270198822
+	INC = 3.4710168838500977
+	LPE = 81.094978332519531
+	LAN = 357.7969970703125
+	MNA = 290.00030517578125
+	EPH = 0.99919885396957397
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 791997788
+	mid = 791997788
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 14583.271494463648
+	lifetime = 863913600
+	refTime = 863913600
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	FlightGUI
+	{
+	}
+	FARVesselAero
+	{
+	}
+}

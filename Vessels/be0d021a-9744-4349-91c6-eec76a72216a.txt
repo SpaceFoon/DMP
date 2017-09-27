@@ -1,0 +1,117 @@
+pid = be0d021a9744434991c6eec76a72216a
+name = Ast. LDK-383
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 14645.271494463648
+lct = 14645.271494463648
+lastUT = -1
+root = 0
+lat = 4.3558947035421243
+lon = 44.296951447670473
+alt = 17314448656.057045
+hgt = -1
+nrm = 0,1,0
+rot = 0.413433284,0.687729836,-0.572841525,0.167192295
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 21177946112
+	ECC = 0.17921307682991028
+	INC = 4.7956027984619141
+	LPE = 67.958549499511719
+	LAN = 348.83853149414063
+	MNA = 131.90972900390625
+	EPH = 1.0003156661987305
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 1906708465
+	mid = 1906708465
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 14645.271494463648
+	lifetime = 863913600
+	refTime = 863913600
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	FlightGUI
+	{
+	}
+	FARVesselAero
+	{
+	}
+}

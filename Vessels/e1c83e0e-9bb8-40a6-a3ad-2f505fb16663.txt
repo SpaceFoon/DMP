@@ -1,0 +1,117 @@
+pid = e1c83e0e9bb840a6a3ad2f505fb16663
+name = Ast. SHF-143
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 15893.2872677457
+lct = 15893.2872677457
+lastUT = -1
+root = 0
+lat = 2.5296649224449652
+lon = -29.462209142715643
+alt = 16855924922.55253
+hgt = -1
+nrm = 0,1,0
+rot = -0.761408031,-0.197586969,0.607842863,0.108371139
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 17998798848
+	ECC = 0.14229853451251984
+	INC = 2.5463080406188965
+	LPE = 10.527563095092773
+	LAN = 257.69204711914063
+	MNA = 158.08195495605469
+	EPH = 0.99951928853988647
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 1434183016
+	mid = 1434183016
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 15893.2872677457
+	lifetime = 863913600
+	refTime = 863913600
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	FlightGUI
+	{
+	}
+	FARVesselAero
+	{
+	}
+}

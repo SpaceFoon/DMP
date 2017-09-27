@@ -1,0 +1,123 @@
+pid = a0338145b36441b18344c07df2395a3c
+name = Ast. IMU-310
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 1210513.8620735176
+lct = 1210513.8620735176
+lastUT = -1
+root = 0
+lat = 1.6125801437189593
+lon = -99.284087825905402
+alt = 23589225559.936672
+hgt = -1
+nrm = 0,1,0
+rot = -0.921934307,0.229439527,-0.284062564,0.129241124
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 17952473088
+	ECC = 0.35213804244995117
+	INC = 1.7842122316360474
+	LPE = 226.88990783691406
+	LAN = 283.06948852539063
+	MNA = 109.98333740234375
+	EPH = 1.000551700592041
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 1959182886
+	mid = 1959182886
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 1210513.8620735176
+	lifetime = 863913600
+	refTime = 863913600
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	FlightGUI
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	ModuleStabilization
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	ModuleSwapConverterUpdate
+	{
+	}
+	FARVesselAero
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+}

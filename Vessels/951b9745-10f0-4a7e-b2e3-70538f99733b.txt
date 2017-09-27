@@ -1,0 +1,123 @@
+pid = 951b974510f04a7eb2e370538f99733b
+name = Ast. YRY-981
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 7621685.1180742653
+lct = 7621685.1180742653
+lastUT = -1
+root = 0
+lat = -1.4418804508248344
+lon = -162.46700606753939
+alt = 19756632273.492298
+hgt = -1
+nrm = 0,1,0
+rot = 0.0974260271,0.0430629551,-0.986207008,0.12668702
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 19345657856
+	ECC = 0.069628812372684479
+	INC = 4.3047561645507813
+	LPE = 95.060897827148438
+	LAN = 258.19189453125
+	MNA = 133.16036987304688
+	EPH = 1.0004198551177979
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 1376215706
+	mid = 1376215706
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 7621685.1180742653
+	lifetime = 863913600
+	refTime = 863913600
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	FlightGUI
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	ModuleStabilization
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	ModuleSwapConverterUpdate
+	{
+	}
+	FARVesselAero
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+}

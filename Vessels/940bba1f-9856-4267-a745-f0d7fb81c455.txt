@@ -1,0 +1,123 @@
+pid = 940bba1f98564267a745f0d7fb81c455
+name = Ast. WRC-610
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 1211094.4136538771
+lct = 1211094.4136538771
+lastUT = -1
+root = 0
+lat = 0.14469641706588363
+lon = -170.04970407684593
+alt = 18371869885.526527
+hgt = -1
+nrm = 0,1,0
+rot = -0.185643017,0.44144842,-0.858332872,0.184186444
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 18929698816
+	ECC = 0.18339550495147705
+	INC = 5.3245224952697754
+	LPE = 94.098396301269531
+	LAN = 275.7938232421875
+	MNA = 199.28840637207031
+	EPH = 0.99909287691116333
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 1628444883
+	mid = 1628444883
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 1211094.4136538771
+	lifetime = 863913600
+	refTime = 863913600
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	FlightGUI
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	ModuleStabilization
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	ModuleSwapConverterUpdate
+	{
+	}
+	FARVesselAero
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+}

@@ -1,0 +1,123 @@
+pid = 64b76aa370394ea5b2891ca96382a23b
+name = Ast. MEO-179
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 7621490.6016083322
+lct = 7621490.6016083322
+lastUT = -1
+root = 0
+lat = 2.6187932395198996
+lon = 41.560040116869821
+alt = 19016141681.464294
+hgt = -1
+nrm = 0,1,0
+rot = 0.530353129,0.63829124,-0.517247498,0.209200323
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16018659328
+	ECC = 0.19159148633480072
+	INC = 2.9654378890991211
+	LPE = 297.05551147460938
+	LAN = 324.55178833007813
+	MNA = 74.318603515625
+	EPH = 1.0001792907714844
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 2087863003
+	mid = 2087863003
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 7621490.6016083322
+	lifetime = 863913600
+	refTime = 863913600
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	FlightGUI
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	ModuleStabilization
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	ModuleSwapConverterUpdate
+	{
+	}
+	FARVesselAero
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+}

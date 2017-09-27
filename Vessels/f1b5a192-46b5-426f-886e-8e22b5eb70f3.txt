@@ -1,0 +1,117 @@
+pid = f1b5a19246b5426f886e8e22b5eb70f3
+name = Ast. LUT-404
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 8846.0280081214714
+lct = 8846.0280081214714
+lastUT = -1
+root = 0
+lat = -1.7461601175970445
+lon = -127.33891886465803
+alt = 18073301318.568233
+hgt = -1
+nrm = 0,1,0
+rot = -0.672519088,-0.331876636,-0.621053636,0.227745995
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16060522496
+	ECC = 0.12975075840950012
+	INC = 1.7754195928573608
+	LPE = 80.092781066894531
+	LAN = 338.97811889648438
+	MNA = 285.86862182617188
+	EPH = 1.0004408359527588
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 583430344
+	mid = 583430344
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 8846.0280081214714
+	lifetime = 863913600
+	refTime = 863913600
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	FlightGUI
+	{
+	}
+	FARVesselAero
+	{
+	}
+}

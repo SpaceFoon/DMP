@@ -1,0 +1,117 @@
+pid = 26861a7baf4444d8b5ef29b425101d68
+name = Ast. IBM-763
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 15893.707267745709
+lct = 15893.707267745709
+lastUT = -1
+root = 0
+lat = -3.1630095437977057
+lon = -48.891619366079595
+alt = 20519762647.566238
+hgt = -1
+nrm = 0,1,0
+rot = 0.752784491,0.57578814,0.160087347,0.275963247
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 19163551744
+	ECC = 0.15428464114665985
+	INC = 5.5270328521728516
+	LPE = 198.69007873535156
+	LAN = 356.530029296875
+	MNA = 96.180435180664063
+	EPH = 1.0009431838989258
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 456406497
+	mid = 456406497
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 15893.707267745709
+	lifetime = 863913600
+	refTime = 863913600
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	FlightGUI
+	{
+	}
+	FARVesselAero
+	{
+	}
+}

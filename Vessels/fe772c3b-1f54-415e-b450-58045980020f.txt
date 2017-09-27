@@ -1,0 +1,117 @@
+pid = fe772c3b1f54415eb45058045980020f
+name = Ast. WMQ-881
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+displaylandedAt = 
+splashed = False
+met = 9140.3802053871495
+lct = 9140.3802053871495
+lastUT = -1
+root = 0
+lat = 0.56097645269882634
+lon = 144.78914508619937
+alt = 13329365546.448145
+hgt = -1
+nrm = 0,1,0
+rot = 0.841161966,-0.171232805,-0.31281957,0.406533927
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15954224128
+	ECC = 0.39357408881187439
+	INC = 2.8522372245788574
+	LPE = 100.45046234130859
+	LAN = 139.54901123046875
+	MNA = 30.618423461914063
+	EPH = 0.9998965859413147
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 1761377911
+	mid = 1761377911
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 9140.3802053871495
+	lifetime = 863913600
+	refTime = 863913600
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	ModularFlightIntegrator
+	{
+	}
+	KSPWheelDustCamera
+	{
+	}
+	RPMVesselComputer
+	{
+	}
+	KSPWheelVesselControl
+	{
+	}
+	KSPWheelVesselDebug
+	{
+	}
+	BetterBurnTimeData
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+	FlightGUI
+	{
+	}
+	FARVesselAero
+	{
+	}
+}
